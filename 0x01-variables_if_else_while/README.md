@@ -1,0 +1,3 @@
+# C, ASCII, IF/ELSE, FOR LOOPS, & MANIPULATING NUMBERS
+
+the world of c
