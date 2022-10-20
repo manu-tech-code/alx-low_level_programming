@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.blade.php": "blade",
+        "*.tpl": "html",
+        "main.h": "c"
+    }
+}
