@@ -8,25 +8,6 @@
  * Return: concatenated string
  */
 
-char *_strncat(char *dest, char *src, int n)
-{
-	int i = 0;
-	int j = 0;
-
-	while (dest[i] != '\0') /*i is index of null terminator*/
-		i++;
-
-	while (src[j] != src[n]) /*append replacing null terminator*/
-	{
-		dest[i] = src[j];
-		i++;
-		j++;
-	}
-	dest[i] = '\0';
-
-	return (dest);
-}
-/* another method
 
 char *_strncat(char *dest, char *src, int n)
 {
@@ -34,6 +15,7 @@ char *_strncat(char *dest, char *src, int n)
    while (*dest)
        dest++;
 
+   int i = 0;
    // replace dest while src exists and insert nulls till n bytes
    for (i = 0; i < n; i++)
    {
@@ -46,4 +28,4 @@ char *_strncat(char *dest, char *src, int n)
 	*dest = '\0';
    }
 }
-*/
+
