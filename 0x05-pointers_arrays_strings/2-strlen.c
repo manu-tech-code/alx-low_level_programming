@@ -7,7 +7,6 @@
  */
 int _strlen(char *s)
 {
-int swap;
 
 int i = 0;
 while (s[i])
