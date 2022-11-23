@@ -1,4 +1,5 @@
-   include "main.h"
+  #include "main.h"
+
 
   /** 
    *puts2 - prints string, followed by a new line, 
