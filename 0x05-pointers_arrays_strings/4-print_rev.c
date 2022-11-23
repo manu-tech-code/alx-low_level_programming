@@ -8,14 +8,12 @@
 
 void _print_rev(char *s)
 {
-int swap;
-
 int i = 0;
 while (s[i])
-   i++;
-while (i--)
+i++;
+   while (i--)
 {
-   _putchar(s[i]);
+_putchar(s[i]);
 }
 _putchar('/n');
 }

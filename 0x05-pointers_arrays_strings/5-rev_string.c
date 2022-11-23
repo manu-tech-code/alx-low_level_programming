@@ -11,15 +11,15 @@ int i, j, temp;
 i = 0;
 j = 0;
 
-while (s[i] != '\0')
+  while (s[i] != '\0')
 {
-  j++;
+j++;
 }
 j--;
-while (j > i)
+  while (j > i)
 {
-  temp = s[j];
-  s[j--] = s[i];
-  s[i++] = temp;
+temp = s[j];
+s[j--] = s[i];
+s[i++] = temp;
 }
 }
