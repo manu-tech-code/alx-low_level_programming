@@ -14,12 +14,12 @@ int i;
 
 while (src[l] != '\0')
 {
-  l++;
+l++;
 }
 
 for (i = 0; i < l; i++)
 {
-  dest[i] = src[i];
+dest[i] = src[i];
 }
 dest[i] = '\0';
 return (dest);
